@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Week One HW assignment favorites HTML project -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div {
+        text-align: center;
+      }
+      body {
+        background-color: rgb(255, 250, 250);
+      }
+      img {
+        width: 900px;
+        height: 800px;
+        object-fit: cover;
+      }
+    </style>
+    <title>Favorites</title>
+  </head>
+  <body>
+    <div>
+      <h1>Anthony's Favorite Things</h1>
+      <p>
+        Anthony is an interesting person, well at least he thinks so. Below are
+        <b>Anthony's favorite things.</b>
+      </p>
+
+      <h2>Cycling</h2>
+      <p>
+        Anthony loves cycling. He bikes any chance he can get. His favorite
+        cycling routes are Shoal Creek for a quick morning ride and 360 to get
+        out of Central Austin and get a good workout in.
+        <br />
+        Did you know that Anthony loves cycling so much that he
+        <a
+          href="https://www.youtube.com/watch?v=cHKPpEXV2GM&ab_channel=Texas4000forCancer"
+          >biked to Alaska?</a
+        >
+        <br />
+        <img src="fav1.jpg" />
+        <br />
+        <i
+          >Anthony at the British Columbia border with other cycling friends.</i
+        >
+      </p>
+      <br />
+      <h2>The Beach</h2>
+      <p>
+        Anthony loves the beach. He grew up close to Galveston, TX, and was
+        practically raised there. He was what the locals called a "beach bum",
+        although he sucks at surfing.
+        <br />
+        Can you guess what beach Anthony is at in this photo? Here's a
+        <a
+          href="https://www.google.com/maps/place/Baker+Beach/@37.7936552,-122.4839843,16z/data=!4m5!3m4!1s0x808586fc8b40f8a7:0x8b3d6b4d7dc0d519!8m2!3d37.7935723!4d-122.4836379"
+          ><i>big hint!</i></a>
+          <br>
+          <img src="fav2.jpg">
+          <br>
+          <i>Who wears jeans and boots at the beach? What an idiot.</i>
+      </p>
+      <br />
+      <h2>Big Bend National Park</h2>
+      <p>
+          Anthony loves hiking. He was always outdoorsy, and visiting Big Bend is a 
+          great way to hike while flexing his overpriced REI pullover. Here's Anthony in
+          front of <a href="https://visitbigbend.com/santa-elena/">Santa Elena Canyon.</a>
+          <br>
+          <img src="fav3.jpg">
+          <br>
+          <i>I mean, how vain can Anthony be? Wasn't this assignment about favorite things, not a portrait gallery of Anthony?</i>
+          </p>
+          <br>
+          <br>
+          <h2>Vote on which photo of Anthony was a little too <i>extra</i></h2>
+          <p>Please provide your name and contact info so Anthony can send you a signed headshot as a thank you for participating.
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /><br />
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" /><br />
+            <br>
+            <label for="citystate">City & State:</label>
+            <input type="text" id="citystate" name="citystate" /><br />
+            <p>Choose below:</p>
+      
+            <label for="bike">Cycling Photo</label>
+            <input type="checkbox" id="bike" name="bike" />
+      
+            <label for="beach">Beach Photo</label>
+            <input type="checkbox" id="beach" name="beach" />
+
+            <label for="hike">Big Bend Photo</label>
+            <input type="checkbox" id="hike" name="hike" />
+            <br>
+      <h2>Which of these places would you want to visit?</h2>
+            <label for="type">Pick a location!</label>
+            <select id="type" name="type">
+              <option value="BC">British Columbia</option>
+              <option value="SF">San Francisco</option>
+              <option value="BB" selected>Big Bend</option>
+              <option value="null" selected></option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit for All" />
+    </form>
+            <br>
+            <br>
+        </p>
+    </div>
+  </body>
+</html>
